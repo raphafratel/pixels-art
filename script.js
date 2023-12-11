@@ -53,4 +53,15 @@ function criarTabela() {
           });
       }
   }
-  
+
+  function limparQuadro() {
+    for (let index = 0; index < tabela.rows.length; index++) {
+        for (let index2 = 0; index2 < tabela.rows[index].cells.length; index2++) {
+            tabela.rows[index].cells[index2].style.backgroundColor = "white";
+        }
+    }
+}
+
+  document.getElementById("clear-board").addEventListener("click", function() {
+    limparQuadro();
+});
