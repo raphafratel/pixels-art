@@ -1,65 +1,48 @@
+body {
+  text-align: center;
+}
+
 .color {
- width: 40px;
- height: 40px;
- display: inline-block;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid black;
 }
 
-#black{
-    background-color: black;
-    border: 1px solid black;
-}
-
-#red{
-    background-color: red;
-    border: 1px solid black;
-}
-
-#blue{
-    background-color: blue;
-    border: 1px solid black;
-}
-
-#green{
-    background-color: green;
-    border: 1px solid black;
-}
-
-
-#pixel-board{
-    border-spacing: 0px;
-    border-collapse: collapse;
+#pixel-board {
+  border-spacing: 0px;
+  border-collapse: collapse;
 }
 
 .pixel {
-    width: 40px;
-    height: 40px;
-    border: 1px solid black;
-    background-color:white;
-    margin: 0px;
-    padding: 0px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
-#clear-board{
-    width: 80px;
-    height: 40px;
-    margin: 10px 0px;
+#clear-board {
+  width: 80px;
+  height: 40px;
+  margin: 10px 0px;
 }
 
-#button-random-color{
-    width: 120px;
-    height: 40px;
-    margin: 10px 0px;
-
+#button-random-color {
+  width: 120px;
+  height: 40px;
+  margin: 10px 0px;
 }
 
-#board-size{
-    width: 70px;
-    height: 40px;
-    margin: 10px 0px;
+#board-size {
+  width: 70px;
+  height: 40px;
+  margin: 10px 0px;
 }
 
-#generate-board{
-    width: 120px;
-    height: 40px;
-    margin: 10px 0px;
+#generate-board {
+  width: 120px;
+  height: 40px;
+  margin: 10px 0px;
 }
