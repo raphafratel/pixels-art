@@ -65,3 +65,24 @@ function criarTabela() {
   document.getElementById("clear-board").addEventListener("click", function() {
     limparQuadro();
 });
+
+function gerarCorAleatoria() {
+    const letrasHex = "0123456789ABCDEF";
+    let cor = "#";
+    for (let i = 0; i < 6; i++) {
+        cor += letrasHex[Math.floor(Math.random() * 16)];
+    }
+    return cor;
+}
+
+function aplicarCoresAleatorias() {
+    const paletaCores = ["black", "red", "blue", "green"];
+    for (let i = 0; i < paletaCores.length; i++) {
+        let corAleatoria = gerarCorAleatoria();
+        document.getElementById(paletaCores[i]).style.backgroundColor = corAleatoria;
+    }
+}
+
+document.getElementById("button-random-color").addEventListener("click", function() {
+    aplicarCoresAleatorias();
+});
