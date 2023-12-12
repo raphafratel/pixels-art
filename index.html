@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <h1 id="title">Paleta de Cores</h1>
-    
-<ul id="color-palette">
-    <li class="color" id="black"></li>
-    <li class="color" id="red"></li>
-    <li class="color" id="blue"></li>
-    <li class="color" id="green"></li>
-</ul>
 
-<button id="clear-board">Limpar</button>
-<button id="button-random-color">Cores aleatórias</button>
+    <ul id="color-palette">
+      <li class="color" id="black"></li>
+      <li class="color" id="red"></li>
+      <li class="color" id="blue"></li>
+      <li class="color" id="green"></li>
+    </ul>
 
-<table id='pixel-board'></table>
+    <div>
+      <button id="clear-board">Limpar</button>
+      <button id="button-random-color">Cores aleatórias</button>
+    </div>
+    <div>
+      <input id="board-size" type="text" />
+      <button id="generate-board">VQV</button>
+    </div>
 
+    <table id="pixel-board"></table>
+  
 </body>
-<script src="./script.js"></script>
+  <script src="./script.js"></script>
 </html>

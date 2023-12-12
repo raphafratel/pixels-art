@@ -42,12 +42,24 @@
 #clear-board{
     width: 80px;
     height: 40px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 #button-random-color{
     width: 120px;
     height: 40px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 
+}
+
+#board-size{
+    width: 70px;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+#generate-board{
+    width: 120px;
+    height: 40px;
+    margin: 10px 0px;
 }
