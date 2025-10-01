@@ -85,6 +85,7 @@ input::placeholder {
 #pixel-board {
   border-spacing: 0px;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 .pixel {
