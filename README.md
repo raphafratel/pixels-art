@@ -1,5 +1,8 @@
 # 🎨 Pixel Art Maker
 
+
+[Acesse o projeto aqui >>](https://raphafratel.github.io/pixels-art/)
+
 Este projeto é um aplicativo interativo de desenho em pixels (Pixel Art Maker) desenvolvido como parte de um **exercício acadêmico** para consolidar conhecimentos fundamentais em desenvolvimento web (HTML, CSS e JavaScript).
 
 O objetivo principal foi criar uma aplicação funcional que permite ao usuário selecionar cores, pintar em uma grade de pixels, redimensionar o quadro de desenho e persistir o estado do quadro usando o armazenamento local do navegador.
