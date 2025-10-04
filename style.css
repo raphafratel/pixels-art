@@ -70,6 +70,7 @@ h1 {
 
 .button:hover {
   background-color: aqua;
+  color: #6a5acd;
 }
 
 .input {
